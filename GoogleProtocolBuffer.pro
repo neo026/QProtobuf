@@ -15,9 +15,7 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp
 
-HEADERS  += mainwindow.h \
-    lib/include/google/protobuf/compiler/importer.h \
-    lib/include/google/protobuf/dynamic_message.h
+HEADERS  += mainwindow.h
 
 FORMS    += mainwindow.ui
 
